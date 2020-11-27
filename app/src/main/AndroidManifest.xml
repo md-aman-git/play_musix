@@ -13,6 +13,7 @@
         android:name=".App"
         android:supportsRtl="true"
         android:theme="@style/DarkTheme">
+        android:requestLegacyExternalStorage="true" // work on anriod 10 if you are not add this it does not work on andriod 10
         <activity android:name=".AlbumDetails" />
         <activity
             android:name=".PlayerActivity"
